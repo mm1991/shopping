@@ -1,0 +1,72 @@
+
+Exception: E_MISSING_ENV_VALUE: Missing environment variable "HOST"
+
+at /Users/meilidan/Desktop/work/shopping/blog/server.ts(anonymous):21
+16  
+17  sourceMapSupport.install({ handleUncaughtExceptions: false })
+18  
+19  new Ignitor(__dirname)
+20    .httpServer()
+21    .start()
+22  
+
+1 Object.ensureValue
+  /Users/meilidan/Desktop/work/shopping/blog/build/node_modules/@adonisjs/env/build/src/Schema/helpers.js:26
+
+2 Object.validate [as HOST]
+  /Users/meilidan/Desktop/work/shopping/blog/build/node_modules/@adonisjs/env/build/src/Schema/string.js:44
+
+3 anonymous
+  /Users/meilidan/Desktop/work/shopping/blog/build/node_modules/@adonisjs/env/build/src/Env/index.js:87
+
+4 Env.process
+  /Users/meilidan/Desktop/work/shopping/blog/build/node_modules/@adonisjs/env/build/src/Env/index.js:86
+
+5 Application.loadEnvironmentVariables
+  /Users/meilidan/Desktop/work/shopping/blog/build/node_modules/@adonisjs/application/build/src/Application.js:266
+
+6 Application.setup
+  /Users/meilidan/Desktop/work/shopping/blog/build/node_modules/@adonisjs/application/build/src/Application.js:467
+
+7 HttpServer.wire
+  /Users/meilidan/Desktop/work/shopping/blog/build/node_modules/@adonisjs/core/build/src/Ignitor/HttpServer/index.js:48
+
+8 HttpServer.start
+  /Users/meilidan/Desktop/work/shopping/blog/build/node_modules/@adonisjs/core/build/src/Ignitor/HttpServer/index.js:146
+
+
+Exception: E_MISSING_ENV_VALUE: Missing environment variable "HOST"
+
+at /Users/meilidan/Desktop/work/shopping/blog/server.ts(anonymous):21
+16  
+17  sourceMapSupport.install({ handleUncaughtExceptions: false })
+18  
+19  new Ignitor(__dirname)
+20    .httpServer()
+21    .start()
+22  
+
+1 Object.ensureValue
+  /Users/meilidan/Desktop/work/shopping/blog/node_modules/@adonisjs/env/build/src/Schema/helpers.js:26
+
+2 Object.validate [as HOST]
+  /Users/meilidan/Desktop/work/shopping/blog/node_modules/@adonisjs/env/build/src/Schema/string.js:44
+
+3 anonymous
+  /Users/meilidan/Desktop/work/shopping/blog/node_modules/@adonisjs/env/build/src/Env/index.js:87
+
+4 Env.process
+  /Users/meilidan/Desktop/work/shopping/blog/node_modules/@adonisjs/env/build/src/Env/index.js:86
+
+5 Application.loadEnvironmentVariables
+  /Users/meilidan/Desktop/work/shopping/blog/node_modules/@adonisjs/application/build/src/Application.js:266
+
+6 Application.setup
+  /Users/meilidan/Desktop/work/shopping/blog/node_modules/@adonisjs/application/build/src/Application.js:467
+
+7 HttpServer.wire
+  /Users/meilidan/Desktop/work/shopping/blog/node_modules/@adonisjs/core/build/src/Ignitor/HttpServer/index.js:48
+
+8 HttpServer.start
+  /Users/meilidan/Desktop/work/shopping/blog/node_modules/@adonisjs/core/build/src/Ignitor/HttpServer/index.js:146
+
