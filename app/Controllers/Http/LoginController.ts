@@ -1,7 +1,6 @@
 import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
+import Logger from '@ioc:Adonis/Core/Logger';
 import {verify, setuss} from '../../../utils/login';
-import Logger from '@ioc:Adonis/Core/Logger'
-
 
 export default class LoginController {
     public async index ({request, response, session}: HttpContextContract) {
